@@ -15,7 +15,7 @@ Appendix C reconstruction code, released to make clear how the public December 2
 were used. The remaining estimation code and a compact replication package will be added
 after publication.
 
-## December 2025 data
+## Data availability
 
 The December 2025 data are publicly available from Albers et al. at
 [Zenodo DOI 10.5281/zenodo.18184441](https://doi.org/10.5281/zenodo.18184441). The public
