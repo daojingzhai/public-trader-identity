@@ -50,7 +50,7 @@ Python dependencies: `polars`, `numpy`, `orjson`.
 
 ## Caveats
 
-- This is research code as run on Yale's Bouchet cluster (SLURM arrays; 1.7B / 1.1B / 0.6B
+- This is research code as run on a compute cluster (SLURM arrays; 1.7B / 1.1B / 0.6B
   diffs per coin). Input and output roots are hard-coded near the top of each script
   (`INPUT_ROOT`, `OUTPUT_ROOT`, `ROOT`) and need to be changed.
 - Steps 1–2 are day-parallel; step 3 is sequential within a coin and needs tens of GB of RAM.

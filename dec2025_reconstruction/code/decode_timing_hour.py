@@ -15,9 +15,9 @@ import polars as pl
 from zenodo_io import adjacentHours, decodePrice, readOrderFile, taskHour
 
 
-INPUT_ROOT = Path("/home/dz328/scratch_pi_as3993/dz328/toxicity_dec2025/input")
+INPUT_ROOT = Path("/path/to/dec2025/input")
 OUTPUT_ROOT = Path(
-    "/home/dz328/scratch_pi_as3993/dz328/toxicity_dec2025_rerun_20260803"
+    "/path/to/dec2025"
 )
 COINS = ("BTC", "ETH", "SOL")
 TERMINAL_STATUS_IDS = (2, 4, 5, 7, 10, 11, 12, 13, 14, 16)

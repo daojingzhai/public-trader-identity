@@ -12,7 +12,7 @@ import numpy as np
 import polars as pl
 
 
-ROOT = Path("/home/dz328/scratch_pi_as3993/dz328/toxicity_dec2025_rerun_20260803/stage0")
+ROOT = Path("/path/to/dec2025/stage0")
 LIBRARY = Path(__file__).with_name("lnds.so")
 COINS = ("BTC", "ETH", "SOL")
 MAX_UNCERTAINTY_NS = 100_000_000
