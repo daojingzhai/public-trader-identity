@@ -1,4 +1,4 @@
-# Public Identity
+# Public Trader Identity
 
 Code for
 
