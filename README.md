@@ -1,8 +1,8 @@
 # Public Trader Identity
 
-Code for
+Github repo for
 
-> Daojing Zhai (2026), *Public Trader Identity: Adverse Selection and Return Predictability*.
+> Daojing Zhai (2026), *Public Trader Identity: Adverse Selection and Return Predictability*. [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7234658)
 
 | folder | what it is |
 |---|---|
@@ -15,18 +15,15 @@ Appendix C reconstruction code, released to make clear how the public December 2
 were used. The remaining estimation code and a compact replication package will be added
 after publication.
 
-## Important distinction
-
-The public December 2025 book diffs do not contain the consensus block number, block
-timestamp, or oracle stream. The code constructs a conservative `availableTime` from the
-public order-status and trade timestamps while preserving book-diff file order. Output
-`blockNumber` values are synthetic replay counters for atomic update groups, not recovered
-Hyperliquid chain blocks.
-
-## Data availability
+## December 2025 data
 
 The December 2025 data are publicly available from Albers et al. at
-[Zenodo DOI 10.5281/zenodo.18184441](https://doi.org/10.5281/zenodo.18184441).
+[Zenodo DOI 10.5281/zenodo.18184441](https://doi.org/10.5281/zenodo.18184441). The public
+book diffs do not contain the consensus block number, block timestamp, or oracle stream. The
+code constructs a conservative `availableTime` from the public order-status and trade
+timestamps while preserving book-diff file order. Output `blockNumber` values are synthetic
+replay counters for atomic update groups, not recovered Hyperliquid chain blocks.
+
 The July 2026 raw node archive and the large derived panels are not stored on GitHub;
 data-access documentation will accompany the complete release.
 
